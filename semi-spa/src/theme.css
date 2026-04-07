@@ -1,0 +1,48 @@
+body,
+body[theme-mode='dark'] .semi-always-light,
+:root {
+  --semi-blue-0: 248, 243, 255;
+  --semi-blue-1: 238, 230, 255;
+  --semi-blue-2: 220, 204, 255;
+  --semi-blue-3: 194, 167, 255;
+  --semi-blue-4: 161, 122, 255;
+  --semi-blue-5: 127, 86, 217;
+  --semi-blue-6: 110, 66, 194;
+  --semi-blue-7: 91, 49, 166;
+
+  --semi-light-blue-0: 248, 243, 255;
+  --semi-light-blue-1: 238, 230, 255;
+  --semi-light-blue-2: 220, 204, 255;
+  --semi-light-blue-5: 127, 86, 217;
+  --semi-light-blue-6: 110, 66, 194;
+  --semi-light-blue-7: 91, 49, 166;
+
+  --semi-color-primary: rgba(127, 86, 217, 1);
+  --semi-color-primary-hover: rgba(110, 66, 194, 1);
+  --semi-color-primary-active: rgba(91, 49, 166, 1);
+  --semi-color-primary-disabled: rgba(220, 204, 255, 1);
+  --semi-color-primary-light-default: rgba(248, 243, 255, 1);
+  --semi-color-primary-light-hover: rgba(238, 230, 255, 1);
+  --semi-color-primary-light-active: rgba(220, 204, 255, 1);
+  --semi-color-secondary: rgba(127, 86, 217, 1);
+  --semi-color-secondary-hover: rgba(110, 66, 194, 1);
+  --semi-color-secondary-active: rgba(91, 49, 166, 1);
+  --semi-color-focus-border: rgba(127, 86, 217, 1);
+  --semi-color-link: rgba(127, 86, 217, 1);
+  --semi-color-link-hover: rgba(110, 66, 194, 1);
+  --semi-color-link-active: rgba(91, 49, 166, 1);
+  --semi-color-info: rgba(127, 86, 217, 1);
+  --semi-color-info-hover: rgba(110, 66, 194, 1);
+  --semi-color-info-active: rgba(91, 49, 166, 1);
+
+  --semi-border-radius-small: 24px;
+  --semi-border-radius-medium: 48px;
+  --semi-border-radius-large: 48px;
+  --semi-border-radius-extra-large: 48px;
+}
+
+body {
+  background: radial-gradient(1200px 600px at -10% -10%, #efe8ff 0%, transparent 60%),
+              radial-gradient(1000px 500px at 110% -10%, #efe8ff 0%, transparent 60%),
+              #ffffff;
+}
